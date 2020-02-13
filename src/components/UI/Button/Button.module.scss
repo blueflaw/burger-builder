@@ -1,0 +1,38 @@
+$base-color: #c40514;
+$bg-color: #ededed;
+$text-color: #000000;
+$less-color: #f8bc13;
+$disabled-color: #786c5a;
+
+.Button{
+    display: block;
+    font: inherit;
+    padding:  5px;
+    margin: 0 5px;
+    width: 100px;
+    border: 2px solid $base-color;
+    cursor: pointer;
+    outline: none;
+}
+
+.Cancel {  
+    background-color: transparent;
+    color: $text-color;
+    border: 2px solid $less-color;
+}
+
+.Ok {
+    background-color: transparent;
+    border: 2px solid $base-color;
+    color: $text-color; 
+}
+
+.Cancel:hover {  
+    background-color: $less-color;
+    color: white;
+}
+
+.Ok:hover {
+    background-color: $base-color;
+    color: white;
+}

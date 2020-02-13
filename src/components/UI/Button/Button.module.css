@@ -1,0 +1,33 @@
+.Button {
+  display: block;
+  font: inherit;
+  padding: 5px;
+  margin: 0 5px;
+  width: 100px;
+  border: 2px solid #c40514;
+  cursor: pointer;
+  outline: none;
+}
+
+.Cancel {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #f8bc13;
+}
+
+.Ok {
+  background-color: transparent;
+  border: 2px solid #c40514;
+  color: #000000;
+}
+
+.Cancel:hover {
+  background-color: #f8bc13;
+  color: white;
+}
+
+.Ok:hover {
+  background-color: #c40514;
+  color: white;
+}
+/*# sourceMappingURL=Button.module.css.map */

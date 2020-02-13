@@ -1,0 +1,25 @@
+$base-color: #c40514;
+$bg-color: #ededed;
+$text-color: #000000;
+$less-color: #f8bc13;
+$disabled-color: #786c5a;
+
+h1{
+    padding-bottom: 10px;
+}
+
+ul{
+    padding-right: 10px;
+}
+
+.SummaryFooter{
+    padding: 20 0px;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    p{
+        padding: 10px;
+    }
+}

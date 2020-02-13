@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,EAAE,CAAA;EACE,cAAc,EAAE,IAAI;CACvB;;AAED,AAAA,EAAE,CAAA;EACE,aAAa,EAAE,IAAI;CACtB;;AAED,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,GAAG;EACd,eAAe,EAAE,MAAM;CAK1B;;AAVD,AAOI,cAPU,CAOV,CAAC,CAAA;EACG,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "OrderSummary.module.scss"
+    ],
+    "names": [],
+    "file": "OrderSummary.module.css"
+}

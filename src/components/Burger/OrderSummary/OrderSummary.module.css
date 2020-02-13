@@ -1,0 +1,27 @@
+h1 {
+  padding-bottom: 10px;
+}
+
+ul {
+  padding-right: 10px;
+}
+
+.SummaryFooter {
+  padding: 20 0px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SummaryFooter p {
+  padding: 10px;
+}
+/*# sourceMappingURL=OrderSummary.module.css.map */

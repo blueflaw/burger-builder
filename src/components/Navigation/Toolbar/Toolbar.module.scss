@@ -1,0 +1,35 @@
+$base-color: #c40514;
+$bg-color: #ededed;
+$text-color: #000000;
+$less-color: #f8bc13;
+$disabled-color: #786c5a;
+
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    color: #ffffff;
+
+    nav{
+        height: 100%;
+    }
+
+    .Logo{
+        height: 100%;
+    }
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}

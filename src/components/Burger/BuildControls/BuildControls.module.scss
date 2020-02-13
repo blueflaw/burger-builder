@@ -1,0 +1,64 @@
+$base-color: #c40514;
+$bg-color: #000000;
+$text-color: #ffffff;
+
+.BuildControls {
+    width: 100%;
+    background-color: $bg-color;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 2px 1px #cccccc;
+    margin: auto;
+    padding: 10px 0;    
+    text-align: center;
+    color:  $text-color;
+}
+
+.Footer{
+    align-items: center;
+    padding: 10px;
+}
+
+
+.OrderButton {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid $base-color;
+    color: $text-color;
+    font-family: inherit;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 30px;
+    //box-shadow: 2px 2px 2px #966909;
+}
+
+.OrderButton:hover, .OrderButton:active {
+    background-color: $base-color;
+    border: 2px solid $base-color;
+    color: #ffffff;
+}
+
+.OrderButton:disabled {
+    background-color: #777777;
+    cursor: not-allowed;
+    border: 2px solid #777777;
+    color: #888888;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,64 @@
+$base-color: #c40514;
+$bg-color: #ededed;
+$text-color: #ffffff;
+$less-color: #f8bc13;
+$disabled-color: #786c5a;
+
+.BuildControl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  5px 0;
+    .Label {
+        padding: 10px;
+        font-weight: bold;
+        width: 80px;
+        color: $text-color;
+    }
+
+    button{
+        display: block;
+        font: inherit;
+        padding:  5px;
+        margin: 0 5px;
+        width: 100px;
+        border: 2px solid $base-color;
+        cursor: pointer;
+        outline: none;
+    }
+
+    button:disabled {
+        background-color: $disabled-color;
+        border: 1px solid $disabled-color;
+        color: $text-color;
+        cursor: default;
+    }
+
+    button:hover:disabled {
+        background-color: $disabled-color;
+        color: $text-color;
+        cursor: not-allowed;
+    }
+
+    .Less {  
+        background-color: transparent;
+        color: $less-color;
+        border: 2px solid $less-color;
+    }
+
+    .More {
+        background-color: transparent;
+        border: 2px solid $base-color;
+        color: $base-color;
+    }
+
+    .Less:hover, .BuildControl .Less:active {  
+        background-color: $less-color;
+        color: white;
+    }
+
+    .More:hover,.BuildControl .More:active {
+        background-color: $base-color;
+        color: white;
+    }
+}
